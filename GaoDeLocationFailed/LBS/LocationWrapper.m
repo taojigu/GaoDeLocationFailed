@@ -8,6 +8,7 @@
 
 #import "LocationWrapper.h"
 #import <CoreLocation/CoreLocation.h>
+#import <MAMapKit/MAMapKit.h>
 
 
 @implementation LocationWrapper
