@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBC0597B2579F123487049CC /* Pods_GaoDeLocationFailed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5005F3872415F9595DECE7 /* Pods_GaoDeLocationFailed.framework */; };
+		CC0719141DAB3EDE00FBA5D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0719131DAB3EDE00FBA5D6 /* main.m */; };
+		CC0719171DAB3EDE00FBA5D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0719161DAB3EDE00FBA5D6 /* AppDelegate.m */; };
+		CC07191A1DAB3EDE00FBA5D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0719191DAB3EDE00FBA5D6 /* ViewController.m */; };
+		CC07191D1DAB3EDE00FBA5D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC07191B1DAB3EDE00FBA5D6 /* Main.storyboard */; };
+		CC07191F1DAB3EDE00FBA5D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC07191E1DAB3EDE00FBA5D6 /* Assets.xcassets */; };
+		CC0719221DAB3EDE00FBA5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0719201DAB3EDE00FBA5D6 /* LaunchScreen.storyboard */; };
+		CC07192B1DAB3F7B00FBA5D6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC07192A1DAB3F7B00FBA5D6 /* MainViewController.m */; };
+		CC0719581DAB4C2800FBA5D6 /* CCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC07194F1DAB4C2800FBA5D6 /* CCLocationManager.m */; };
+		CC0719591DAB4C2800FBA5D6 /* CCLocationManager+Sync.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0719511DAB4C2800FBA5D6 /* CCLocationManager+Sync.m */; };
+		CC07195A1DAB4C2800FBA5D6 /* CLLocation+YCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0719531DAB4C2800FBA5D6 /* CLLocation+YCLocation.m */; };
+		CC07195B1DAB4C2800FBA5D6 /* LocationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0719551DAB4C2800FBA5D6 /* LocationWrapper.m */; };
+		CC07195C1DAB4C2800FBA5D6 /* MAMapView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0719571DAB4C2800FBA5D6 /* MAMapView+Util.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B4A96733812501603194435 /* Pods-GaoDeLocationFailed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDeLocationFailed.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDeLocationFailed/Pods-GaoDeLocationFailed.release.xcconfig"; sourceTree = "<group>"; };
+		2DC90B7AF71E63EEB81837CC /* Pods-GaoDeLocationFailed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDeLocationFailed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDeLocationFailed/Pods-GaoDeLocationFailed.debug.xcconfig"; sourceTree = "<group>"; };
+		8D5005F3872415F9595DECE7 /* Pods_GaoDeLocationFailed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaoDeLocationFailed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC07190F1DAB3EDE00FBA5D6 /* GaoDeLocationFailed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDeLocationFailed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0719131DAB3EDE00FBA5D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC0719151DAB3EDE00FBA5D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC0719161DAB3EDE00FBA5D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC0719181DAB3EDE00FBA5D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC0719191DAB3EDE00FBA5D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC07191C1DAB3EDE00FBA5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC07191E1DAB3EDE00FBA5D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC0719211DAB3EDE00FBA5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC0719231DAB3EDE00FBA5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0719291DAB3F7B00FBA5D6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CC07192A1DAB3F7B00FBA5D6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CC07194E1DAB4C2800FBA5D6 /* CCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCLocationManager.h; path = LBS/CCLocationManager.h; sourceTree = "<group>"; };
+		CC07194F1DAB4C2800FBA5D6 /* CCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCLocationManager.m; path = LBS/CCLocationManager.m; sourceTree = "<group>"; };
+		CC0719501DAB4C2800FBA5D6 /* CCLocationManager+Sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CCLocationManager+Sync.h"; path = "LBS/CCLocationManager+Sync.h"; sourceTree = "<group>"; };
+		CC0719511DAB4C2800FBA5D6 /* CCLocationManager+Sync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CCLocationManager+Sync.m"; path = "LBS/CCLocationManager+Sync.m"; sourceTree = "<group>"; };
+		CC0719521DAB4C2800FBA5D6 /* CLLocation+YCLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLLocation+YCLocation.h"; path = "LBS/CLLocation+YCLocation.h"; sourceTree = "<group>"; };
+		CC0719531DAB4C2800FBA5D6 /* CLLocation+YCLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+YCLocation.m"; path = "LBS/CLLocation+YCLocation.m"; sourceTree = "<group>"; };
+		CC0719541DAB4C2800FBA5D6 /* LocationWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationWrapper.h; path = LBS/LocationWrapper.h; sourceTree = "<group>"; };
+		CC0719551DAB4C2800FBA5D6 /* LocationWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationWrapper.m; path = LBS/LocationWrapper.m; sourceTree = "<group>"; };
+		CC0719561DAB4C2800FBA5D6 /* MAMapView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MAMapView+Util.h"; path = "LBS/MAMapView+Util.h"; sourceTree = "<group>"; };
+		CC0719571DAB4C2800FBA5D6 /* MAMapView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MAMapView+Util.m"; path = "LBS/MAMapView+Util.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC07190C1DAB3EDE00FBA5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC0597B2579F123487049CC /* Pods_GaoDeLocationFailed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16D3FEC786996FC160CFF002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D5005F3872415F9595DECE7 /* Pods_GaoDeLocationFailed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CDD4CFE4589589CAABC0264 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DC90B7AF71E63EEB81837CC /* Pods-GaoDeLocationFailed.debug.xcconfig */,
+				1B4A96733812501603194435 /* Pods-GaoDeLocationFailed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC0719061DAB3EDE00FBA5D6 = {
+			isa = PBXGroup;
+			children = (
+				CC07194D1DAB4C1E00FBA5D6 /* LBS */,
+				CC0719111DAB3EDE00FBA5D6 /* GaoDeLocationFailed */,
+				CC0719101DAB3EDE00FBA5D6 /* Products */,
+				9CDD4CFE4589589CAABC0264 /* Pods */,
+				16D3FEC786996FC160CFF002 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0719101DAB3EDE00FBA5D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC07190F1DAB3EDE00FBA5D6 /* GaoDeLocationFailed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0719111DAB3EDE00FBA5D6 /* GaoDeLocationFailed */ = {
+			isa = PBXGroup;
+			children = (
+				CC0719151DAB3EDE00FBA5D6 /* AppDelegate.h */,
+				CC0719161DAB3EDE00FBA5D6 /* AppDelegate.m */,
+				CC0719181DAB3EDE00FBA5D6 /* ViewController.h */,
+				CC0719191DAB3EDE00FBA5D6 /* ViewController.m */,
+				CC07191B1DAB3EDE00FBA5D6 /* Main.storyboard */,
+				CC07191E1DAB3EDE00FBA5D6 /* Assets.xcassets */,
+				CC0719201DAB3EDE00FBA5D6 /* LaunchScreen.storyboard */,
+				CC0719231DAB3EDE00FBA5D6 /* Info.plist */,
+				CC0719121DAB3EDE00FBA5D6 /* Supporting Files */,
+				CC0719291DAB3F7B00FBA5D6 /* MainViewController.h */,
+				CC07192A1DAB3F7B00FBA5D6 /* MainViewController.m */,
+			);
+			path = GaoDeLocationFailed;
+			sourceTree = "<group>";
+		};
+		CC0719121DAB3EDE00FBA5D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC0719131DAB3EDE00FBA5D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC07194D1DAB4C1E00FBA5D6 /* LBS */ = {
+			isa = PBXGroup;
+			children = (
+				CC07194E1DAB4C2800FBA5D6 /* CCLocationManager.h */,
+				CC07194F1DAB4C2800FBA5D6 /* CCLocationManager.m */,
+				CC0719501DAB4C2800FBA5D6 /* CCLocationManager+Sync.h */,
+				CC0719511DAB4C2800FBA5D6 /* CCLocationManager+Sync.m */,
+				CC0719521DAB4C2800FBA5D6 /* CLLocation+YCLocation.h */,
+				CC0719531DAB4C2800FBA5D6 /* CLLocation+YCLocation.m */,
+				CC0719541DAB4C2800FBA5D6 /* LocationWrapper.h */,
+				CC0719551DAB4C2800FBA5D6 /* LocationWrapper.m */,
+				CC0719561DAB4C2800FBA5D6 /* MAMapView+Util.h */,
+				CC0719571DAB4C2800FBA5D6 /* MAMapView+Util.m */,
+			);
+			name = LBS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC07190E1DAB3EDE00FBA5D6 /* GaoDeLocationFailed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0719261DAB3EDE00FBA5D6 /* Build configuration list for PBXNativeTarget "GaoDeLocationFailed" */;
+			buildPhases = (
+				28A96D9D4AD13CA24156F02F /* [CP] Check Pods Manifest.lock */,
+				CC07190B1DAB3EDE00FBA5D6 /* Sources */,
+				CC07190C1DAB3EDE00FBA5D6 /* Frameworks */,
+				CC07190D1DAB3EDE00FBA5D6 /* Resources */,
+				9D7191A90D1BE6619BBF3E27 /* [CP] Embed Pods Frameworks */,
+				F3DA7613EB96AFEC31AD11C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaoDeLocationFailed;
+			productName = GaoDeLocationFailed;
+			productReference = CC07190F1DAB3EDE00FBA5D6 /* GaoDeLocationFailed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC0719071DAB3EDE00FBA5D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Gu;
+				TargetAttributes = {
+					CC07190E1DAB3EDE00FBA5D6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UMRACKG926;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC07190A1DAB3EDE00FBA5D6 /* Build configuration list for PBXProject "GaoDeLocationFailed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC0719061DAB3EDE00FBA5D6;
+			productRefGroup = CC0719101DAB3EDE00FBA5D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC07190E1DAB3EDE00FBA5D6 /* GaoDeLocationFailed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC07190D1DAB3EDE00FBA5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0719221DAB3EDE00FBA5D6 /* LaunchScreen.storyboard in Resources */,
+				CC07191F1DAB3EDE00FBA5D6 /* Assets.xcassets in Resources */,
+				CC07191D1DAB3EDE00FBA5D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28A96D9D4AD13CA24156F02F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7191A90D1BE6619BBF3E27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaoDeLocationFailed/Pods-GaoDeLocationFailed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3DA7613EB96AFEC31AD11C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaoDeLocationFailed/Pods-GaoDeLocationFailed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC07190B1DAB3EDE00FBA5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC07195C1DAB4C2800FBA5D6 /* MAMapView+Util.m in Sources */,
+				CC0719581DAB4C2800FBA5D6 /* CCLocationManager.m in Sources */,
+				CC07191A1DAB3EDE00FBA5D6 /* ViewController.m in Sources */,
+				CC0719171DAB3EDE00FBA5D6 /* AppDelegate.m in Sources */,
+				CC0719591DAB4C2800FBA5D6 /* CCLocationManager+Sync.m in Sources */,
+				CC0719141DAB3EDE00FBA5D6 /* main.m in Sources */,
+				CC07192B1DAB3F7B00FBA5D6 /* MainViewController.m in Sources */,
+				CC07195B1DAB4C2800FBA5D6 /* LocationWrapper.m in Sources */,
+				CC07195A1DAB4C2800FBA5D6 /* CLLocation+YCLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC07191B1DAB3EDE00FBA5D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC07191C1DAB3EDE00FBA5D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC0719201DAB3EDE00FBA5D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0719211DAB3EDE00FBA5D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC0719241DAB3EDE00FBA5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC0719251DAB3EDE00FBA5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC0719271DAB3EDE00FBA5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC90B7AF71E63EEB81837CC /* Pods-GaoDeLocationFailed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = GaoDeLocationFailed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gu.GaoDeLocationFailed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		CC0719281DAB3EDE00FBA5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4A96733812501603194435 /* Pods-GaoDeLocationFailed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = GaoDeLocationFailed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gu.GaoDeLocationFailed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC07190A1DAB3EDE00FBA5D6 /* Build configuration list for PBXProject "GaoDeLocationFailed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0719241DAB3EDE00FBA5D6 /* Debug */,
+				CC0719251DAB3EDE00FBA5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0719261DAB3EDE00FBA5D6 /* Build configuration list for PBXNativeTarget "GaoDeLocationFailed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0719271DAB3EDE00FBA5D6 /* Debug */,
+				CC0719281DAB3EDE00FBA5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC0719071DAB3EDE00FBA5D6 /* Project object */;
+}
