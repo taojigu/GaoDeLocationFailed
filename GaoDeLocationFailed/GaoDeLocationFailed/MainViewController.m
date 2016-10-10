@@ -39,12 +39,30 @@
     //[self.mapView autoPinEdgesToSuperviewEdges];
     
     self.mapView.frame = self.view.bounds;
-    
-    CLLocationCoordinate2D cord = CLLocationCoordinate2DMake(39.23, 116.244);
+    CLLocationCoordinate2D cord = CLLocationCoordinate2DMake(39.23,116.244);
     [self.mapView moveToSpot:cord.latitude longtitude:cord.longitude];
-                                   
+    
+    
+
+    
+    UIButton* button = [[UIButton alloc]initWithFrame:CGRectMake(30, 80, 100, 40)];
+    [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [button setTitle:@"Refresh" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(refreshButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.mapView addSubview:button];
     
     // Do any additional setup after loading the view.
+}
+
+-(void)refreshButtonClicked
+{
+    
+    CLLocationCoordinate2D cord = CLLocationCoordinate2DMake(39.23,116.244);
+    [self.mapView moveToSpot:cord.latitude longtitude:cord.longitude];
+    
+
+    
 }
 
 - (void)didReceiveMemoryWarning {
